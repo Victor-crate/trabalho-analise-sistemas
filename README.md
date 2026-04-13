@@ -317,13 +317,13 @@ Promover funcionário
 
 2. **Acesse a pasta da questão desejada:**
   ```bash
-   • cd q10_sala_reuniao
+    cd q10_sala_reuniao
 
 ---
 
 3. **Inicie a interface:**
   ```bash
-   • streamlit run app_q10.py
+    streamlit run app_q10.py
 
 ---  
 
