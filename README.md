@@ -8,6 +8,7 @@ Este repositório contém a resolução técnica de 11 cenários de negócio, ex
 ## 🎓 Informações Acadêmicas
 * **Instituição:** Centro Universitário de João Pessoa - UNIPÊ
 * **Curso:** CST em Análise e Desenvolvimento de Sistemas
+* **Período:** 3° Período
 * **Disciplina:** Análise e Projeto de Sistemas I
 * **Professor:** Ricardo Roberto de Lima
 * **Autor:** Victor Luís
