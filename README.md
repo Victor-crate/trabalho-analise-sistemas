@@ -32,9 +32,9 @@ O trabalho está organizado em módulos independentes para facilitar a correçã
 
 ---
 
-🎯 Questões Abordadas
+## 🎯 Questões Abordadas
 
-Questão 01: Conta de Luz
+**Questão 01: Conta de Luz**
 
 Cenário: Gabriel controla seus gastos mensais com conta de luz através de uma planilha Excel.
 
@@ -42,7 +42,7 @@ Objetivo: Identificar as classes, atributos e métodos para um sistema de gerenc
 
 Classe Principal: ContaDeLuz
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Registrar consumo mensal de energia
@@ -53,9 +53,9 @@ Identificar mês com menor consumo
 •
 Identificar mês com maior consumo
 
+---
 
-
-Questão 02: Classe TextoSaída
+**Questão 02: Classe TextoSaída**
 
 Cenário: Criar uma classe que permita configurar um texto através de atributos para exibição em diferentes componentes.
 
@@ -63,7 +63,7 @@ Objetivo: Modelar uma classe de configuração de texto sem vínculo com linguag
 
 Classes Principais: TextoSaida, Cor, TipoComponente
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Configurar tamanho da letra
@@ -74,9 +74,9 @@ Escolher cor da fonte e fundo
 •
 Selecionar tipo de componente (label, edit, memo)
 
+---
 
-
-Questão 03: Classe Boneco em Movimento
+**Questão 03: Classe Boneco em Movimento**
 
 Cenário: Professor Ricardo Roberto decidiu criar uma classe que permita mover um boneco na tela.
 
@@ -84,7 +84,7 @@ Objetivo: Modelar um sistema de movimento de objetos em uma interface gráfica.
 
 Classes Principais: Boneco, Direcao
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Mover boneco em diferentes direções
@@ -95,9 +95,9 @@ Controlar posição (X, Y)
 •
 Gerenciar direção atual
 
+---
 
-
-Questão 04: Horário de Remédios
+**Questão 04: Horário de Remédios**
 
 Cenário: Aplicação de controle pessoal de horário de remédios para smartphone.
 
@@ -105,7 +105,7 @@ Objetivo: Modelar um sistema de agendamento e gerenciamento de medicações.
 
 Classes Principais: Remedio, Horario, Planilha, Paciente, ControladorRemedio
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar remédios com dosagem e duração
@@ -119,9 +119,9 @@ Gerar planilha de horários diários
 •
 Reorganizar horários em caso de atraso
 
+---
 
-
-Questão 05: Gastos Diários
+**Questão 05: Gastos Diários**
 
 Cenário: Vera controla seus gastos diários através de uma planilha Excel.
 
@@ -129,7 +129,7 @@ Objetivo: Modelar um sistema de controle financeiro pessoal com relatórios.
 
 Classes Principais: Gasto, TipoGasto, FormaPagamento, ControladorGastos, Relatorio
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Registrar gastos com tipo, data, valor e forma de pagamento
@@ -143,9 +143,9 @@ Gerar relatório agrupado por forma de pagamento
 •
 Calcular totais mensais
 
+---
 
-
-Questão 06: Comanda Eletrônica (PDV)
+**Questão 06: Comanda Eletrônica (PDV)**
 
 Cenário: Sistema de controle de comanda eletrônica para padaria.
 
@@ -153,7 +153,7 @@ Objetivo: Modelar um sistema de ponto de venda (PDV) para estabelecimento comerc
 
 Classes Principais: Comanda, Produto, ItemComanda, Caixa, Venda
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Criar comandas com número único
@@ -170,9 +170,9 @@ Processar pagamento
 •
 Emitir recibo
 
+---
 
-
-Questão 07: Lista de Compras
+**Questão 07: Lista de Compras**
 
 Cenário: Carolina controla sua lista de compras mensal através de uma planilha Excel.
 
@@ -180,7 +180,7 @@ Objetivo: Modelar um sistema de gerenciamento de lista de compras com controle d
 
 Classes Principais: Produto, ListaCompras, ItemLista, UnidadeCompra
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar produtos com unidade de compra
@@ -197,8 +197,9 @@ Calcular total de compras
 •
 Exportar para Excel
 
+---
 
-Questão 08: Coleção de CDs
+**Questão 08: Coleção de CDs**
 
 Cenário: Adriano deseja cadastrar sua coleção de CDs em um Palm-top.
 
@@ -206,7 +207,7 @@ Objetivo: Modelar um sistema simples de gerenciamento de coleção de CDs.
 
 Classes Principais: CD, Artista, ColecaoCDs
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar CDs com artista, título e ano
@@ -220,8 +221,9 @@ Buscar CDs por artista ou título
 •
 Visualizar total de CDs
 
+---
 
-Questão 09: Coleção de CDs (Variação A)
+**Questão 09: Coleção de CDs (Variação A)**
 
 Cenário: Variação que inclui CDs de coletâneas com múltiplos artistas e músicas.
 
@@ -229,7 +231,7 @@ Objetivo: Modelar um sistema complexo de gerenciamento de coleção com relacion
 
 Classes Principais: CD, Artista, Musica, Faixa, ColecaoCDs
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar CDs com múltiplos artistas
@@ -246,9 +248,9 @@ Buscar CDs por artista ou música
 •
 Gerar relatórios de associações
 
+---
 
-
-Questão 10: Sala de Reunião
+**Questão 10: Sala de Reunião**
 
 Cenário: Patrícia controla o uso de três salas de reunião através de planilhas Excel.
 
@@ -256,7 +258,7 @@ Objetivo: Modelar um sistema complexo de agendamento de salas de reunião.
 
 Classes Principais: SalaReuniao, Funcionario, Reuniao, Horario, AgendaReuniao
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar salas com capacidade
@@ -276,9 +278,9 @@ Consultar salas livres em data/horário
 •
 Gerar relatório de ocupação
 
+---
 
-
-Questão 11: Herança
+**Questão 11: Herança**
 
 Cenário: Identificar classe comum entre Funcionário e Cliente.
 
@@ -286,7 +288,7 @@ Objetivo: Demonstrar o uso de herança para eliminar duplicação de código.
 
 Classes Principais: Pessoa (superclasse), Funcionario (subclasse), Cliente (subclasse)
 
-Funcionalidades:
+**Funcionalidades:**
 
 •
 Cadastrar pessoas com dados comuns
@@ -314,20 +316,20 @@ Promover funcionário
 ---
 
 2. **Acesse a pasta da questão desejada:**
-  
-  • cd q10_sala_reuniao
+  ```bash
+   • cd q10_sala_reuniao
 
 ---
 
 3. **Inicie a interface:**
-
-  • streamlit run app_q10.py
+  ```bash
+   • streamlit run app_q10.py
 
 ---  
 
-📝 Especificação de Requisitos
+## 📝 Especificação de Requisitos
 
-Cada questão possui um arquivo requisitos_questao_XX.txt contendo:
+**Cada questão possui um arquivo requisitos_questao_XX.txt contendo:**
 
 •
 Requisitos Funcionais (RF ): O que o sistema deve fazer
@@ -345,39 +347,31 @@ Requisitos Não-Funcionais (RNF): Como o sistema deve se comportar (performance,
 
 ---
 
-📚 Conceitos Abordados
+## 📚 Conceitos Abordados
 
-Este projeto aborda os seguintes conceitos de Análise Orientada a Objetos:
+**Este projeto aborda os seguintes conceitos de Análise Orientada a Objetos:**
 
-1.
-Identificação de Classes: Reconhecer entidades do domínio do problema
+1.Identificação de Classes: Reconhecer entidades do domínio do problema
 
-2.
-Atributos: Propriedades que caracterizam uma classe
+2.Atributos: Propriedades que caracterizam uma classe
 
-3.
-Métodos: Comportamentos e operações de uma classe
+3.Métodos: Comportamentos e operações de uma classe
 
-4.
-Relacionamentos: Associações, agregações, composições e herança
+4.Relacionamentos: Associações, agregações, composições e herança
 
-5.
-Multiplicidade: Cardinalidade dos relacionamentos (1:1, 1:N, M:N)
+5.Multiplicidade: Cardinalidade dos relacionamentos (1:1, 1:N, M:N)
 
-6.
-Herança: Especialização e generalização de classes
+6.Herança: Especialização e generalização de classes
 
-7.
-Enumerações: Tipos com valores pré-definidos
+7.Enumerações: Tipos com valores pré-definidos
 
-8.
-Requisitos Funcionais e Não-Funcionais: Especificação completa de sistem
+8.Requisitos Funcionais e Não-Funcionais: Especificação completa de sistem
 
 ---
 
-🎓 Objetivos de Aprendizado
+## 🎓 Objetivos de Aprendizado
 
-Ao estudar este projeto, você aprenderá:
+**Ao estudar este projeto, você aprenderá:**
 
 •
 Como identificar classes em um cenário de negócio
@@ -399,8 +393,8 @@ Como estruturar um projeto de análise de sistemas
 
 ---
 
-   📄 Licença
+## 📄 Licença
 
-Este projeto é fornecido para fins educacionais. Todos os direitos reservados.
+**Este projeto é fornecido para fins educacionais. Todos os direitos reservados.**
 
 
