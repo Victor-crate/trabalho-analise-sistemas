@@ -1,0 +1,26 @@
+@startuml ListaCompras
+skinparam classAttributeIconSize 0
+
+class ItemCompra {
+  - nome: String
+  - unidade: String
+  - qtdPrevista: double
+  - qtdEfetiva: double
+  - precoEstimado: double
+  - /subtotal: double
+  
+  + __init__(...)
+  + atualizarPreco(novoPreco: double): void
+}
+
+class PlanilhaCarolina {
+  - itens: List<ItemCompra>
+  - /totalGeral: double
+  
+  + adicionarItem(item: ItemCompra): void
+  + obterTotal(): double
+}
+
+PlanilhaCarolina "1" *-- "0..*" ItemCompra : organiza >
+
+@enduml

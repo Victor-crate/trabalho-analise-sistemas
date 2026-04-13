@@ -1,0 +1,20 @@
+@startuml TextoSaida
+skinparam classAttributeIconSize 0
+
+class TextoSaida {
+  - texto: String
+  - tamanho: int
+  - corFonte: String
+  - corFundo: String
+  - tipo: String
+  
+  + __init__(texto: String, tam: int, cf: String, cb: String, tp: String)
+  + render(): String
+}
+
+note right of TextoSaida::render
+  Retorna HTML/CSS 
+  baseado no 'tipo'
+end note
+
+@enduml

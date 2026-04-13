@@ -1,0 +1,13 @@
+@startuml ColecaoAtualizada
+
+class Colecao
+class CD
+class Musica
+class Musico
+
+Colecao "1" *-- "0..*" CD
+CD "1" *-- "1..*" Musica : possui >
+Musico "1..*" -- "0..*" CD : participa >
+Musico "1" -- "0..*" Musica : compõe/toca >
+
+@enduml

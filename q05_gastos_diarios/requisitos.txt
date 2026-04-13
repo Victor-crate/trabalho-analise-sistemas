@@ -1,0 +1,14 @@
+LISTA DE REQUISITOS - QUESTÃO 05 (GASTOS DIÁRIOS)
+
+REQUISITOS FUNCIONAIS (RF):
+RF01: O sistema deve permitir o cadastro de gastos (Tipo, Data, Valor e Forma de Pagamento).
+RF02: O sistema deve suportar as formas de pagamento: Dinheiro, Cartão Crédito, Cartão Débito, Ticket Alimentação e Refeição.
+RF03: O sistema deve calcular o total geral de gastos do mês (Atributo Derivado).
+RF04: O sistema deve agrupar e exibir os totais por Tipo de Gasto.
+RF05: O sistema deve agrupar e exibir os totais por Forma de Pagamento.
+
+REQUISITOS NÃO-FUNCIONAIS (RNF):
+RNF01: A aplicação deve ser desenvolvida em Python com Streamlit.
+RNF02: O armazenamento deve ser persistido em session_state para permitir múltiplos cadastros.
+RNF03: O diagrama de classes deve destacar a relação entre o Gasto individual e o Controle de Gastos.
+RNF04: O diagrama de classes deve ser gerado em UML via PlantUML.

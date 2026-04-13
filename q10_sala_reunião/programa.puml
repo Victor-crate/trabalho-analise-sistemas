@@ -1,0 +1,15 @@
+@startuml SalaReuniao
+
+
+class Empresa
+class Sala
+class Funcionario
+class Reserva
+
+Empresa "1" *-- "1..*" Sala
+Empresa "1" *-- "1..*" Funcionario
+Sala "1" -- "0..*" Reserva
+Funcionario "1" -- "0..*" Reserva : solicita >
+Reserva "0..*" -- "1" Funcionario : responsável <
+
+@enduml

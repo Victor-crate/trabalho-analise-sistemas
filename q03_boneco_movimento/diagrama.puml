@@ -1,0 +1,16 @@
+@startuml BonecoMovimento
+skinparam classAttributeIconSize 0
+
+class Boneco {
+  - nome: String
+  - posX: int
+  - posY: int
+  - direcao: String
+  
+  + __init__(nome: String)
+  + mudarDirecao(novaDirecao: String): void
+  + mover(): void
+  + obterPosicao(): String
+}
+
+@enduml

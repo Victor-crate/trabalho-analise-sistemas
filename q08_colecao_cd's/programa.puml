@@ -1,0 +1,22 @@
+@startuml ColecaoCDs
+skinparam classAttributeIconSize 0
+
+class CD {
+  - artista: String
+  - titulo: String
+  - ano: int
+  
+  + __init__(artista: String, titulo: String, ano: int)
+}
+
+class Colecao {
+  - listaCDs: List<CD>
+  - /totalItens: int
+  
+  + adicionarCD(cd: CD): void
+  + listarTodos(): List<CD>
+}
+
+Colecao "1" *-- "0..*" CD : armazena >
+
+@enduml

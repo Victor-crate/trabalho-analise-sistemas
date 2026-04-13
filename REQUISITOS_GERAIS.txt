@@ -1,0 +1,27 @@
+==============================================================
+COMPILADO DE REQUISITOS - PROJETO DE SISTEMAS (11 QUESTÕES)
+==============================================================
+
+PADRÕES GERAIS DO PROJETO (RNF):
+- RNF_GEN_01: Interface desenvolvida com Streamlit (Python).
+- RNF_GEN_02: Modelagem orientada a objetos com classes e métodos.
+- RNF_GEN_03: Relacionamentos e cálculos representados como atributos derivados.
+- RNF_GEN_04: O diagrama de classes deve ser gerado em UML via PlantUML.
+
+--------------------------------------------------------------
+RESUMO POR QUESTÃO:
+--------------------------------------------------------------
+
+Q01 (Conta de Luz): Calcular valor total e ICMS baseado em leitura (KWh) e tarifa.
+Q02 (Texto Saída): Renderizar componentes visuais (Label, Edit, Memo) com estilos CSS.
+Q03 (Boneco): Controlar estados de movimento e posição (X, Y).
+Q04 (Remédios): Calcular data de término e reorganizar horários em caso de atraso.
+Q05 (Gastos Vera): Agrupar despesas mensais por Tipo e Forma de Pagamento.
+Q06 (Comanda PDV): Gerenciar itens de consumo e calcular subtotal/total da comanda.
+Q07 (Lista Carolina): Planejamento mensal comparando quantidade prevista vs. efetiva.
+Q08 (Coleção CDs): Cadastro básico de Artista, Título e Ano com totalizador.
+Q09 (CDs Avançado): Modelagem de Coletâneas, Músicos e Músicas com multiplicidade.
+Q10 (Salas de Reunião): Gestão de agenda, conflitos de horário e consulta de salas livres.
+Q11 (Herança): Abstração de classe Pessoa para especialização de Cliente e Funcionário.
+
+==============================================================

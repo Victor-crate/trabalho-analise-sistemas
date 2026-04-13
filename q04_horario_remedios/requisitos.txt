@@ -1,0 +1,14 @@
+LISTA DE REQUISITOS - QUESTÃO 04 (HORÁRIO DE REMÉDIOS)
+
+REQUISITOS FUNCIONAIS (RF):
+RF01: O sistema deve cadastrar o paciente, remédio, data de início, duração (dias), frequência (vezes ao dia) e dosagem.
+RF02: O sistema deve calcular a data de término do tratamento automaticamente.
+RF03: O sistema deve sugerir os horários para tomada do remédio com base na frequência diária.
+RF04: O sistema deve gerar uma planilha/lista de horários para o dia selecionado.
+RF05: O sistema deve permitir registrar um atraso e reorganizar automaticamente os horários restantes daquele dia.
+
+REQUISITOS NÃO-FUNCIONAIS (RNF):
+RNF01: A aplicação deve ser desenvolvida em Python com Streamlit.
+RNF02: O processamento de horários deve utilizar a biblioteca 'datetime' do Python.
+RNF03: O diagrama de classes deve representar atributos derivados e métodos de cálculo.
+RNF04: O diagrama de classes deve ser gerado em UML via PlantUML.

@@ -1,0 +1,34 @@
+@startuml Heranca
+skinparam classAttributeIconSize 0
+
+abstract class Pessoa {
+  - nome: String
+  - dataNascimento: Date
+  - /endereco: Endereco
+  - /telesContato: List<Telefone>
+  
+  + cadastrar(): void
+  + obterIdade(): int
+}
+
+class Funcionario {
+  - matricula: int
+  - salario: double
+  - dataAdmissao: Date
+  - /cargo: Cargo
+  
+  + reajustarSalario(percentual: double): void
+  + promover(novoCargo: Cargo): void
+}
+
+class Cliente {
+  - codigo: String
+  - /profissao: Profissao
+  
+  + cadastrar(): void
+}
+
+Pessoa <|-- Funcionario
+Pessoa <|-- Cliente
+
+@enduml

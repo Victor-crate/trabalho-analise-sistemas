@@ -1,0 +1,26 @@
+@startuml ContaLuz
+skinparam classAttributeIconSize 0
+
+class ContaLuz {
+  - dataLeitura: String
+  - numLeitura: int
+  - kwGasto: double
+  - valorPagar: double
+  - dataPagamento: String
+  - mediaConsumo: double
+  
+  + __init__(data: String, num: int, kw: double, val: double, pag: String, med: double)
+}
+
+class GerenciadorContas {
+  - listaContas: List<ContaLuz>
+  
+  + adicionarConta(conta: ContaLuz): void
+  + buscarMenorConsumo(): ContaLuz
+  + buscarMaiorConsumo(): ContaLuz
+  + calcularRelatorio(): List
+}
+
+GerenciadorContas "1" *-- "0..*" ContaLuz : armazena >
+
+@enduml

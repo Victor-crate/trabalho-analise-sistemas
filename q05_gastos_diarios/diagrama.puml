@@ -1,0 +1,24 @@
+@startuml GastosDiarios
+skinparam classAttributeIconSize 0
+
+class Gasto {
+  - tipo: String
+  - data: Date
+  - valor: double
+  - formaPagamento: String
+  
+  + __init__(...)
+}
+
+class PlanilhaVera {
+  - listaGastos: List<Gasto>
+  - /totalGeral: double
+  
+  + adicionarGasto(g: Gasto): void
+  + calcularTotalPorTipo(): Map
+  + calcularTotalPorForma(): Map
+}
+
+PlanilhaVera "1" *-- "0..*" Gasto : contém >
+
+@enduml

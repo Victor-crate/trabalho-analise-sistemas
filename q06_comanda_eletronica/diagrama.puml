@@ -1,0 +1,24 @@
+@startuml ComandaEletronica
+skinparam classAttributeIconSize 0
+
+class ItemComanda {
+  - nomeProduto: String
+  - valorUnitario: double
+  - quantidade: int
+  
+  + __init__(...)
+  + calcularSubtotal(): double
+}
+
+class Comanda {
+  - numero: int
+  - itens: List<ItemComanda>
+  - /valorTotal: double
+  
+  + adicionarItem(item: ItemComanda): void
+  + finalizarComanda(): void
+}
+
+Comanda "1" *-- "0..*" ItemComanda : possui >
+
+@enduml

@@ -1,0 +1,13 @@
+LISTA DE REQUISITOS - QUESTÃO 08 (COLEÇÃO DE CD'S)
+
+REQUISITOS FUNCIONAIS (RF):
+RF01: O sistema deve permitir o cadastro de CDs informando: nome do artista/conjunto, título do CD e ano de lançamento.
+RF02: O sistema deve listar todos os CDs cadastrados na coleção.
+RF03: O sistema deve permitir a busca ou filtragem por artista ou título (funcionalidade agregada para utilidade do Adriano).
+RF04: O sistema deve exibir o total de CDs na coleção (Atributo Derivado).
+
+REQUISITOS NÃO-FUNCIONAIS (RNF):
+RNF01: A aplicação deve ser desenvolvida em Python com Streamlit.
+RNF02: Os dados devem ser mantidos em st.session_state para simular o armazenamento do "Palm-top".
+RNF03: O diagrama de classes deve mostrar a relação entre a Coleção e os CDs individuais.
+RNF04: O diagrama de classes deve ser gerado em UML via PlantUML.

@@ -1,0 +1,13 @@
+LISTA DE REQUISITOS - QUESTÃO 11 (HERANÇA)
+
+REQUISITOS FUNCIONAIS (RF):
+RF01: O sistema deve abstrair os dados comuns entre Clientes e Funcionários em uma Superclasse (Pessoa).
+RF02: O sistema deve permitir o cadastro de Funcionários com atributos específicos (Matrícula, Salário, Data de Admissão e Cargo).
+RF03: O sistema deve permitir o cadastro de Clientes com atributos específicos (Código e Profissão).
+RF04: O sistema deve calcular a idade com base na data de nascimento (Atributo Derivado / Método).
+RF05: O sistema deve permitir o reajuste salarial e promoção de cargo para funcionários.
+
+REQUISITOS NÃO-FUNCIONAIS (RNF):
+RNF01: A implementação deve utilizar herança de classes em Python.
+RNF02: A interface Streamlit deve permitir visualizar as listas separadamente, mas utilizando o mesmo motor de dados.
+RNF04: O diagrama de classes deve ser gerado em UML via PlantUML.

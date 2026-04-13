@@ -1,0 +1,19 @@
+@startuml Remedio
+skinparam classAttributeIconSize 0
+
+class Remedio {
+  - nomePaciente: String
+  - nomeRemedio: String
+  - dataInicio: Date
+  - qtdDias: int
+  - vezesAoDia: int
+  - dosagem: String
+  - horaPrimeiraDose: Time
+  - /dataTermino: Date
+  
+  + __init__(...)
+  + calcularGradeHorarios(): List<Time>
+  + reorganizarHorarios(horaAtraso: Time): List<Time>
+}
+
+@enduml
