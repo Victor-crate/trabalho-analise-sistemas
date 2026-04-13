@@ -317,7 +317,7 @@ Promover funcionário
 
 2. **Acesse a pasta da questão desejada:**
   ```bash
-    cd q10_sala_reuniao
+    q10_sala_reuniao
 
 ---
 
