@@ -104,7 +104,7 @@ Cenário: Aplicação de controle pessoal de horário de remédios para smartpho
 
 Objetivo: Modelar um sistema de agendamento e gerenciamento de medicações.
 
-Classes Principais: Remedio, Horario, Planilha, Paciente, ControladorRemedio
+Classes Principais: Remedio, Horario, Planilha, Paciente, ControladorRemedio.
 
 **Funcionalidades:**
 
